@@ -1,4 +1,5 @@
 {
   "itemGroup.rebuilding_world_items_tabs" : "回周世界のアイテム",
-  "item.rebuilding_world.steely_bark" : "鎧樹皮"
+  "item.rebuilding_world.steely_bark" : "鎧樹皮",
+  "block.rebuilding_world.shell_rock" : "殻石"
 }
