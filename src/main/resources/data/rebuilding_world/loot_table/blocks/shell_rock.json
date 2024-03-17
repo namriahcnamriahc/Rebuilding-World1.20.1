@@ -17,5 +17,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/iron_block"
+  "random_sequence": "rebuilding_world:blocks/shell_rock"
 }

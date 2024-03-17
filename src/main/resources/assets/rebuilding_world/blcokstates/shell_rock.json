@@ -1,7 +1,7 @@
 {
-  "variants": {
+  "variants" : {
     "": {
-      "model": "rebuilding_world:block/shell_rock"
+      "models": "rebuilding_world/block/shell_rock"
     }
   }
 }
