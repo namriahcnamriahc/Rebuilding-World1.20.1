@@ -7,33 +7,35 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.BucketPickup;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.FluidState;
 
-public class Block_water_soluble_sand extends Block {
-    public static final int MAX_DEPTH = 6;
-    public static final int MAX_COUNT = 64;
-    private static final Direction[] ALL_DIRECTIONS = Direction.values();
-    public Block_water_soluble_sand() {
-        super(BlockBehaviour.Properties.of());
-    }
+public class Block_sponge_sand extends Block {
 
-    public void onPlace(BlockState p_56811_, Level p_56812_, BlockPos p_56813_, BlockState p_56814_, boolean p_56815_) {
-        if (!p_56814_.is(p_56811_.getBlock())) {
-            this.tryAbsorbWater(p_56812_, p_56813_);
+    public static final int MAX_DEPTH; static {MAX_DEPTH = 6;}
+
+    public static final int MAX_COUNT; static {MAX_COUNT = 64;}
+
+    private static final Direction[] ALL_DIRECTIONS; static {ALL_DIRECTIONS = Direction.values();}
+
+    public Block_sponge_sand() {
+        super(Properties.of());}
+
+    public void onPlace(BlockState pState1, Level pLevel, BlockPos pPos, BlockState pState2, boolean p_boolean) {
+        if (!pState2.is(pState1.getBlock())) {
+            this.tryAbsorbWater(pLevel, pPos);
         }
     }
 
-    public void neighborChanged(BlockState p_56801_, Level p_56802_, BlockPos p_56803_, Block p_56804_, BlockPos p_56805_, boolean p_56806_) {
-        this.tryAbsorbWater(p_56802_, p_56803_);
-        super.neighborChanged(p_56801_, p_56802_, p_56803_, p_56804_, p_56805_, p_56806_);
+    public void neighborChanged(BlockState pState, Level pLevel, BlockPos pPos1, Block pBlock, BlockPos pPos2, boolean p_boolean) {
+        this.tryAbsorbWater(pLevel, pPos1);
+        super.neighborChanged(pState, pLevel, pPos1, pBlock, pPos2, p_boolean);
     }
 
-    protected void tryAbsorbWater(Level p_56798_, BlockPos p_56799_) {
-        if (this.removeWaterBreadthFirstSearch(p_56798_, p_56799_)) {
-            p_56798_.setBlock(p_56799_, Blocks.WET_SPONGE.defaultBlockState(), 2);
-            p_56798_.levelEvent(2001, p_56799_, Block.getId(Blocks.WATER.defaultBlockState()));
+    protected void tryAbsorbWater(Level pLevel, BlockPos pPos) {
+        if (this.removeWaterBreadthFirstSearch(pLevel, pPos)) {
+            pLevel.setBlock(pPos, Blocks.WET_SPONGE.defaultBlockState(), 2);
+            pLevel.levelEvent(2001, pPos, Block.getId(Blocks.WATER.defaultBlockState()));
         }
 
     }
