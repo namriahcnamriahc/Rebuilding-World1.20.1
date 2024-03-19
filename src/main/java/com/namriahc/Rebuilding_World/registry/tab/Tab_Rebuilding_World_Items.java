@@ -13,6 +13,7 @@ public class Tab_Rebuilding_World_Items {
             Rebuilding_World_Items.STEELY_BARK.get(),
             Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get(),
             Rebuilding_World_Blocks.BlockItems.FIRST_SOIL.get(),
+            Rebuilding_World_Blocks.BlockItems.SPONGE_SAND.get(),
             Rebuilding_World_Items.SHELL_STONE_SWORD.get()
     };
 }
