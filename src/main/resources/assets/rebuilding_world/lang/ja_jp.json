@@ -3,5 +3,6 @@
   "item.rebuilding_world.steely_bark" : "鎧樹皮",
   "item.rebuilding_world.shell_stone_sword" : "殻石の剣",
   "block.rebuilding_world.shell_rock" : "殻石",
-  "block.rebuilding_world.first_soil" : "最初の土壌"
+  "block.rebuilding_world.first_soil" : "最初の土壌",
+  "block.rebuilding_world.sponge_sand" : "スポンジ沙"
 }
