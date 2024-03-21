@@ -6,4 +6,6 @@
   "block.rebuilding_world.shell_rock" : "殻石",
   "block.rebuilding_world.first_soil" : "最初の土壌",
   "block.rebuilding_world.sponge_sand" : "スポンジ沙",
+  "block.rebuilding_world.wet_sponge_sand" : "水を吸ったスポンジ沙",
+  "block.rebuilding_world.steely_tree_seed_fossil_in_a_shell_rock" : "殻石に埋まっている鎧樹の種の化石"
 }
