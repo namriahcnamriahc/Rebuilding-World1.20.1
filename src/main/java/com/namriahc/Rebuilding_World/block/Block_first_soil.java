@@ -7,6 +7,7 @@ public class Block_first_soil extends Block {
     public Block_first_soil() {
         super(Properties.of()
                 .sound(SoundType.GRASS)
+                .strength(0.5F)
         );
     }
 }
