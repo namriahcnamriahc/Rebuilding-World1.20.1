@@ -10,7 +10,7 @@
       ],
       "entries": [
         {
-          "type": "rebuilding_world:item",
+          "type": "minecraft:item",
           "name": "rebuilding_world:shell_rock"
         }
       ],

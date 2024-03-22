@@ -10,12 +10,12 @@
       ],
       "entries": [
         {
-          "type": "rebuilding_world:item",
-          "name": "rebuilding_world:first_soil"
+          "type": "minecraft:item",
+          "name": "rebuilding_world:sponge_sand"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "rebuilding_world:blocks/first_soil"
+  "random_sequence": "rebuilding_world:blocks/sponge_sand"
 }

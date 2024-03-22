@@ -7,7 +7,7 @@ public class Block_steely_tree_seed_fossil_in_a_shell_rock extends Block {
     public Block_steely_tree_seed_fossil_in_a_shell_rock() {
         super(Properties.of()
                 .requiresCorrectToolForDrops()
-                .strength(30)
+                .strength(20)
                 .explosionResistance(15)
                 .sound(SoundType.STONE)
         );

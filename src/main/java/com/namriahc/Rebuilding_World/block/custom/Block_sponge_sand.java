@@ -12,6 +12,7 @@ public class Block_sponge_sand extends FallingBlock {
     public Block_sponge_sand() {
         super(Properties.of()
                 .sound(SoundType.SAND)
+                .strength(0.5F)
         );
     }
 
