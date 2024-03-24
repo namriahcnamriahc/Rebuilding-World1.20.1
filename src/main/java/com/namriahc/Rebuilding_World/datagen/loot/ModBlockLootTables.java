@@ -29,18 +29,19 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(Rebuilding_World_Blocks.Blocks.FIRST_SOIL.get());
+        this.dropSelf(Rebuilding_World_Blocks.Blocks.SPONGE_SAND.get());
         this.dropSelf(Rebuilding_World_Blocks.Blocks.WET_SPONGE_SAND.get());
         this.dropSelf(Rebuilding_World_Blocks.Blocks.SHELL_ROCK.get());
 
         this.add(Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK.get(),
-                block -> createRebuilding_World_OreDrops
+                block -> create_Steely_Tree_Seed_OreDrops
                         (Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK.get(),
                                 Rebuilding_World_Items.STEELY_TREE_SEED_FOSSIL.get()));
 
 
     }
 
-    protected LootTable.Builder createRebuilding_World_OreDrops(Block pBlock, Item item) {
+    protected LootTable.Builder create_Steely_Tree_Seed_OreDrops(Block pBlock, Item item) {
         return createSilkTouchDispatchTable(pBlock,
                 this.applyExplosionDecay(pBlock,
                         LootItem.lootTableItem(item)
