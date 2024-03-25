@@ -23,7 +23,6 @@ import java.util.Set;
 public class ModBlockLootTables extends BlockLootSubProvider {
 
     protected ModBlockLootTables() {
-
         super(Set.of(), FeatureFlags.REGISTRY.allFlags());
     }
 
