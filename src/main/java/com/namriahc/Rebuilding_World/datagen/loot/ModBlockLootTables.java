@@ -22,7 +22,8 @@ import java.util.Set;
 
 public class ModBlockLootTables extends BlockLootSubProvider {
 
-    public ModBlockLootTables() {
+    protected ModBlockLootTables() {
+
         super(Set.of(), FeatureFlags.REGISTRY.allFlags());
     }
 
@@ -32,6 +33,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(Rebuilding_World_Blocks.Blocks.SPONGE_SAND.get());
         this.dropSelf(Rebuilding_World_Blocks.Blocks.WET_SPONGE_SAND.get());
         this.dropSelf(Rebuilding_World_Blocks.Blocks.SHELL_ROCK.get());
+        this.dropSelf(Rebuilding_World_Blocks.Blocks.SHELL_STONE_WALL.get());
+        this.dropSelf(Rebuilding_World_Blocks.Blocks.SHELL_STONE_STAIR.get());
 
         this.add(Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK.get(),
                 block -> create_Steely_Tree_Seed_OreDrops
@@ -54,3 +57,43 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         return Rebuilding_World_Blocks.Blocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

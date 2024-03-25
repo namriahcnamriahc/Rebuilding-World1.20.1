@@ -12,7 +12,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModBlockTagGenerator  extends BlockTagsProvider {
+public class ModBlockTagGenerator extends BlockTagsProvider {
     public ModBlockTagGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
         super(output, lookupProvider, Rebuilding_World.MOD_ID, existingFileHelper);
     }
@@ -30,7 +30,45 @@ public class ModBlockTagGenerator  extends BlockTagsProvider {
                 .add(Rebuilding_World_Blocks.Blocks.FIRST_SOIL.get())
                 .add(Rebuilding_World_Blocks.Blocks.SPONGE_SAND.get())
                 .add(Rebuilding_World_Blocks.Blocks.WET_SPONGE_SAND.get());
+
+        this.tag(BlockTags.WALLS)
+                .add(Rebuilding_World_Blocks.Blocks.SHELL_STONE_WALL.get());
     }
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

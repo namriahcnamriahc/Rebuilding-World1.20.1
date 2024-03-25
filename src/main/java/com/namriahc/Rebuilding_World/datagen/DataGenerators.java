@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import java.util.concurrent.CompletableFuture;
 
 @Mod.EventBusSubscriber(modid = Rebuilding_World.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-public class DataGenerator {
+public class DataGenerators {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
         net.minecraft.data.DataGenerator generator = event.getGenerator();
@@ -30,3 +30,45 @@ public class DataGenerator {
         generator.addProvider(event.includeClient(), new ModItemTagGenenator(packOutput, lookupProvider, blockTagGenerator.contentsGetter(), existingFileHelper));
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

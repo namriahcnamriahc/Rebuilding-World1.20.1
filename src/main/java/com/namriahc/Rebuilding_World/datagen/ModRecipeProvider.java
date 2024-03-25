@@ -18,6 +18,7 @@ import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
     public ModRecipeProvider(PackOutput p_248933_) {
+
         super(p_248933_);
     }
 
@@ -51,3 +52,48 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

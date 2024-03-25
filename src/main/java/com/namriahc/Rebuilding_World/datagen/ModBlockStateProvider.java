@@ -5,6 +5,8 @@ import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Blocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.WallBlock;
+import net.minecraft.world.level.block.WeatheringCopperStairBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
@@ -25,9 +27,48 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK);
 
         stairsBlock(((StairBlock) Rebuilding_World_Blocks.Blocks.SHELL_STONE_STAIR.get()), blockTexture(Rebuilding_World_Blocks.Blocks.SHELL_ROCK.get()));
+        wallBlock(((WallBlock) Rebuilding_World_Blocks.Blocks.SHELL_STONE_WALL.get()), blockTexture(Rebuilding_World_Blocks.Blocks.SHELL_ROCK.get()));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
