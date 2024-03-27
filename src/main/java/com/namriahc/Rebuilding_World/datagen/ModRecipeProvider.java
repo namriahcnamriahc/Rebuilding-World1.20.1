@@ -32,6 +32,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get()), has(Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get()))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, Rebuilding_World_Items.SHELL_STONE_PICKAXE.get())
+                .pattern("SSS")
+                .pattern(" I ")
+                .pattern(" I ")
+                .define('S',Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get())
+                .define('I',Items.STICK)
+                .unlockedBy(getHasName(Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get()), has(Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get()))
+                .save(pWriter);
 
     }
     protected static void oreSmelting(Consumer<FinishedRecipe> p_250654_, List<ItemLike> p_250172_, RecipeCategory p_250588_, ItemLike p_251868_, float p_250789_, int p_252144_, String p_251687_) {
