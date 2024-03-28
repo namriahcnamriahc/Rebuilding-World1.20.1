@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "rebuilding_world:block/shell_rock",
+    "side": "rebuilding_world:block/shell_rock",
+    "top": "rebuilding_world:block/shell_rock"
+  }
+}
