@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "minecraft:shell_rock"
+              "rebuilding_world:shell_rock"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:shell_stone_sword"
+        "recipe": "rebuilding_world:shell_stone_sword"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:shell_stone_sword"
+      "rebuilding_world:shell_stone_sword"
     ]
   },
   "sends_telemetry_event": false

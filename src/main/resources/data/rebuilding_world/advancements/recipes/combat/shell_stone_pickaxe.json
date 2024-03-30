@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "minecraft:shell_rock"
+              "rebuilding_world:shell_rock"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:shell_stone_pickaxe"
+        "recipe": "rebuilding_world:shell_stone_pickaxe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:shell_stone_pickaxe"
+      "rebuilding_world:shell_stone_pickaxe"
     ]
   },
   "sends_telemetry_event": false
