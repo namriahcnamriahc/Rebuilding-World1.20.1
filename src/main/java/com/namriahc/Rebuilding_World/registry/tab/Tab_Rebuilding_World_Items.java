@@ -22,6 +22,7 @@ public class Tab_Rebuilding_World_Items {
             Rebuilding_World_Items.SHELL_STONE_SWORD.get(),
             Rebuilding_World_Items.SHELL_STONE_PICKAXE.get(),
             Rebuilding_World_Items.SHELL_STONE_SHOVEL.get(),
-            Rebuilding_World_Items.STEELY_TREE_SEED_FOSSIL.get()
+            Rebuilding_World_Items.STEELY_TREE_SEED_FOSSIL.get(),
+            Rebuilding_World_Items.STEELY_BARK_HELMET.get()
     };
 }

@@ -1,6 +1,9 @@
-package com.namriahc.Rebuilding_World.item;
+package com.namriahc.Rebuilding_World.item.armor;
 
+import com.namriahc.Rebuilding_World.main.Rebuilding_World;
+import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Items;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -8,7 +11,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum Rebuilding_World_Armor_Materials implements ArmorMaterial {
-    ;
+    STEELY_BARK("steely_bark", 26, new int[]{4,8,6,3},36, SoundEvents.ARMOR_EQUIP_IRON, 2.0F,0F, () -> Ingredient.of(Rebuilding_World_Items.STEELY_BARK.get()));
 
     private final String name;
     private final int durabilityMultiplier;
@@ -32,42 +35,42 @@ public enum Rebuilding_World_Armor_Materials implements ArmorMaterial {
     }
 
     @Override
-    public int getDurabilityForType(ArmorItem.Type p_266807_) {
-        return 0;
+    public int getDurabilityForType(ArmorItem.Type pType) {
+        return BASE_DURABILITY[pType.ordinal()] * this.durabilityMultiplier;
     }
 
     @Override
-    public int getDefenseForType(ArmorItem.Type p_267168_) {
-        return 0;
+    public int getDefenseForType(ArmorItem.Type pType) {
+        return this.protectionAmounts[pType.ordinal()];
     }
 
     @Override
     public int getEnchantmentValue() {
-        return 0;
+        return enchantmentValue;
     }
 
     @Override
     public SoundEvent getEquipSound() {
-        return null;
+        return this.equipSound;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return null;
+        return this.repairIngredient.get();
     }
 
     @Override
     public String getName() {
-        return null;
+        return Rebuilding_World.MOD_ID + ":" + this.name;
     }
 
     @Override
     public float getToughness() {
-        return 0;
+        return this.toughness;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 0;
+        return this.knockbackResistance;
     }
 }
