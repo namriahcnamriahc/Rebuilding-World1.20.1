@@ -25,6 +25,7 @@ public class Tab_Rebuilding_World_Items {
             Rebuilding_World_Items.STEELY_TREE_SEED_FOSSIL.get(),
             Rebuilding_World_Items.STEELY_BARK_HELMET.get(),
             Rebuilding_World_Items.STEELY_BARK_CHESTPLATE.get(),
-            Rebuilding_World_Items.STEELY_BARK_LEGGINGS.get()
+            Rebuilding_World_Items.STEELY_BARK_LEGGINGS.get(),
+            Rebuilding_World_Items.STEELY_BARK_BOOTS.get()
     };
 }

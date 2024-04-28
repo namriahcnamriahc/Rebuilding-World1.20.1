@@ -2,6 +2,7 @@ package com.namriahc.Rebuilding_World.registry;
 
 import com.namriahc.Rebuilding_World.item.Item_steely_bark;
 import com.namriahc.Rebuilding_World.item.Item_steely_tree_seed_fossil;
+import com.namriahc.Rebuilding_World.item.armor.Armor_steely_bark_boots;
 import com.namriahc.Rebuilding_World.item.armor.Armor_steely_bark_chestplate;
 import com.namriahc.Rebuilding_World.item.armor.Armor_steely_bark_helmet;
 import com.namriahc.Rebuilding_World.item.armor.Armor_steely_bark_leggings;
@@ -24,6 +25,7 @@ public class Rebuilding_World_Items {
     public static final RegistryObject<ArmorItem> STEELY_BARK_HELMET = ITEMS.register("steely_bark_helmet", Armor_steely_bark_helmet::new);
     public static final RegistryObject<ArmorItem> STEELY_BARK_CHESTPLATE = ITEMS.register("steely_bark_chestplate", Armor_steely_bark_chestplate::new);
     public static final RegistryObject<ArmorItem> STEELY_BARK_LEGGINGS = ITEMS.register("steely_bark_leggings", Armor_steely_bark_leggings::new);
+    public static final RegistryObject<ArmorItem> STEELY_BARK_BOOTS = ITEMS.register("steely_bark_boots", Armor_steely_bark_boots::new);
 
     public static final RegistryObject<SwordItem> SHELL_STONE_SWORD = ITEMS.register("shell_stone_sword", Tool_shell_stone_sword::new);
     public static final RegistryObject<PickaxeItem> SHELL_STONE_PICKAXE = ITEMS.register("shell_stone_pickaxe", Tool_shell_stone_pickaxe::new);
