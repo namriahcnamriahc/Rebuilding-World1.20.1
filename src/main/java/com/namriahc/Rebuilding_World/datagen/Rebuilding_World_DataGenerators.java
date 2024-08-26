@@ -21,6 +21,9 @@ public class Rebuilding_World_DataGenerators {
         generator.addProvider(event.includeClient(), new Rebuilding_World_ItemModelProvider(packOutput
                 , existingFileHelper));
 
+        generator.addProvider(event.includeClient(), new Rebuilding_World_BlockStateProvider(packOutput
+                , existingFileHelper));
+
     }
 }
 
