@@ -24,6 +24,7 @@ public class Rebuilding_World_DataGenerators {
         generator.addProvider(event.includeClient(), new Rebuilding_World_BlockStateProvider(packOutput
                 , existingFileHelper));
 
+        generator.addProvider(event.includeClient(), new Rebuilding_World_JAJPLanguageProvider(packOutput));
     }
 }
 
