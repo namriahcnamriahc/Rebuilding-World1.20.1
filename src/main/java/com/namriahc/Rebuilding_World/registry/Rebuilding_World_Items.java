@@ -30,7 +30,9 @@ public class Rebuilding_World_Items {
     public static final RegistryObject<SwordItem> SHELL_STONE_SWORD = ITEMS.register("shell_stone_sword", Tool_shell_stone_sword::new);
     public static final RegistryObject<PickaxeItem> SHELL_STONE_PICKAXE = ITEMS.register("shell_stone_pickaxe", Tool_shell_stone_pickaxe::new);
     public static final RegistryObject<ShovelItem> SHELL_STONE_SHOVEL = ITEMS.register("shell_stone_shovel", Tool_shell_stone_shovel::new);
+
     public static final RegistryObject<BowlFoodItem> PIONEERS_CONGEE = ITEMS.register("pioneers_congee", Food_pioneers_congee::new);
+
     public static final RegistryObject<Item> STEELY_TREE_SEED_FOSSIL = ITEMS.register("steely_tree_seed_fossil", Item_steely_tree_seed_fossil::new);
 
 
