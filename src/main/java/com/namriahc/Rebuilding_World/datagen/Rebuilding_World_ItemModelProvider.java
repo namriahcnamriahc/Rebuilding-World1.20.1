@@ -15,6 +15,8 @@ public class Rebuilding_World_ItemModelProvider extends net.minecraftforge.clien
         basicItem(Rebuilding_World_Items.STEELY_BARK.get());
         basicItem(Rebuilding_World_Items.STEELY_TREE_SEED_FOSSIL.get());
 
+        basicItem(Rebuilding_World_Items.STEELY_BARK_HELMET.get());
+
         basicItem(Rebuilding_World_Items.SHELL_STONE_SWORD.get());
         basicItem(Rebuilding_World_Items.SHELL_STONE_PICKAXE.get());
         basicItem(Rebuilding_World_Items.SHELL_STONE_SHOVEL.get());
