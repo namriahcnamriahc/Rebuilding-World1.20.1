@@ -17,6 +17,7 @@ public class Rebuilding_World_BlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.FIRST_SOIL);
         simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.SHELL_ROCK);
+        simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.SPONGE_SAND);
         simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.WET_SPONGE_SAND);
         simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK);
 
