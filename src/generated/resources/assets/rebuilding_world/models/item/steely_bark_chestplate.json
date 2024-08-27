@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rebuilding_world:item/steely_bark_chestplate"
+  }
+}

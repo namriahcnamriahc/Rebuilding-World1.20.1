@@ -1,8 +1,9 @@
-// 1.20.1	2024-08-27T22:56:19.2678556	Item Models: rebuilding_world
+// 1.20.1	2024-08-28T01:11:33.9627756	Item Models: rebuilding_world
 d29026752181bc3f57481ba08efd7cc3cdf353f3 assets/rebuilding_world/models/item/pioneers_congee.json
 45f3bfff5723041d9febefd7a07d30e33bc7c280 assets/rebuilding_world/models/item/shell_stone_pickaxe.json
 da9a01584304343d6b47415b8ed983ca5a23bf1a assets/rebuilding_world/models/item/shell_stone_shovel.json
 5d0f46e899e6c9be2b20f8bac0073124ff398acb assets/rebuilding_world/models/item/shell_stone_sword.json
 f7ed7985a8c2c71c2092d1189082dec7e486fc86 assets/rebuilding_world/models/item/steely_bark.json
+bd285ee368c02658191975a3fc449ba28733bcca assets/rebuilding_world/models/item/steely_bark_chestplate.json
 b2522b0e5d9fcbba016fdd4453041e7b3d42e0fd assets/rebuilding_world/models/item/steely_bark_helmet.json
 790126be4c451eeac3fe3fead269ca51c1024c40 assets/rebuilding_world/models/item/steely_tree_seed_fossil.json

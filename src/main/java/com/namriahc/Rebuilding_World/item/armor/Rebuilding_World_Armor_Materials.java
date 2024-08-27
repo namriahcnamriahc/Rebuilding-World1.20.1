@@ -11,7 +11,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum Rebuilding_World_Armor_Materials implements ArmorMaterial {
-    STEELY_BARK("steely_bark", 26, new int[]{4,8,6,3},36, SoundEvents.ARMOR_EQUIP_IRON, 2.0F,0F, () -> Ingredient.of(Rebuilding_World_Items.STEELY_BARK.get()));
+    STEELY_BARK("steely_bark", 26, new int[]{4,9,6,3},36, SoundEvents.ARMOR_EQUIP_IRON, 2.0F,0F, () -> Ingredient.of(Rebuilding_World_Items.STEELY_BARK.get()));
 
     private final String name;
     private final int durabilityMultiplier;
