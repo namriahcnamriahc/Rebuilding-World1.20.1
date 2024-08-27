@@ -23,6 +23,7 @@ public class Rebuilding_World_ItemModelProvider extends net.minecraftforge.clien
 
         basicItem(Rebuilding_World_Items.STEELY_BARK_HELMET.get());
         basicItem(Rebuilding_World_Items.STEELY_BARK_CHESTPLATE.get());
+        basicItem(Rebuilding_World_Items.STEELY_BARK_LEGGINGS.get());
 
 
 
