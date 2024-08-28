@@ -24,6 +24,7 @@ public class Rebuilding_World_ItemModelProvider extends net.minecraftforge.clien
         basicItem(Rebuilding_World_Items.STEELY_BARK_HELMET.get());
         basicItem(Rebuilding_World_Items.STEELY_BARK_CHESTPLATE.get());
         basicItem(Rebuilding_World_Items.STEELY_BARK_LEGGINGS.get());
+        basicItem(Rebuilding_World_Items.STEELY_BARK_BOOTS.get());
 
 
 
@@ -32,6 +33,8 @@ public class Rebuilding_World_ItemModelProvider extends net.minecraftforge.clien
         handheldshovelitem(Rebuilding_World_Items.SHELL_STONE_SHOVEL);
 
         basicItem(Rebuilding_World_Items.PIONEERS_CONGEE.get());
+
+
     }
 
     private ItemModelBuilder handheldsworditem(RegistryObject<SwordItem> item) {
@@ -51,6 +54,7 @@ public class Rebuilding_World_ItemModelProvider extends net.minecraftforge.clien
                 new ResourceLocation("item/handheld")).texture("layer0",
                 new ResourceLocation(Rebuilding_World.MOD_ID,"item/" + item.getId().getPath()));
     }
+
 }
 
 
