@@ -4,6 +4,7 @@ import com.namriahc.Rebuilding_World.main.Rebuilding_World;
 import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Items;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.SwordItem;
@@ -25,7 +26,6 @@ public class Rebuilding_World_ItemModelProvider extends net.minecraftforge.clien
         basicItem(Rebuilding_World_Items.STEELY_BARK_CHESTPLATE.get());
         basicItem(Rebuilding_World_Items.STEELY_BARK_LEGGINGS.get());
         basicItem(Rebuilding_World_Items.STEELY_BARK_BOOTS.get());
-
 
 
 
