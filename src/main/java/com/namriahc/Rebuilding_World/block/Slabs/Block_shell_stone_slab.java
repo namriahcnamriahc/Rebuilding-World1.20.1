@@ -1,6 +1,5 @@
 package com.namriahc.Rebuilding_World.block.Slabs;
 
-import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Blocks;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.SoundType;
 

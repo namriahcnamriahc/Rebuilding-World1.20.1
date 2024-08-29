@@ -28,6 +28,7 @@ public class Rebuilding_World_ItemModelProvider extends net.minecraftforge.clien
 
 
 
+
         handheldsworditem(Rebuilding_World_Items.SHELL_STONE_SWORD);
         handheldpickaxeitem(Rebuilding_World_Items.SHELL_STONE_PICKAXE);
         handheldshovelitem(Rebuilding_World_Items.SHELL_STONE_SHOVEL);
@@ -54,13 +55,7 @@ public class Rebuilding_World_ItemModelProvider extends net.minecraftforge.clien
                 new ResourceLocation("item/handheld")).texture("layer0",
                 new ResourceLocation(Rebuilding_World.MOD_ID,"item/" + item.getId().getPath()));
     }
-
 }
-
-
-
-
-
 
 
 
