@@ -25,6 +25,8 @@ public class Rebuilding_World_DataGenerators {
                 , existingFileHelper));
 
         generator.addProvider(event.includeClient(), new Rebuilding_World_JAJPLanguageProvider(packOutput));
+
+        generator.addProvider(event.includeClient(), Rebuilding_World_LootTableProvider.create(packOutput));
     }
 }
 
