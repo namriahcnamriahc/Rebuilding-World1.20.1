@@ -4,7 +4,6 @@ import com.namriahc.Rebuilding_World.main.Rebuilding_World;
 import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Items;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.SwordItem;
