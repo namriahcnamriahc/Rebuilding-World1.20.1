@@ -33,7 +33,7 @@ public class Rebuilding_World_Items {
 
     public static final RegistryObject<BowlFoodItem> PIONEERS_CONGEE = ITEMS.register("pioneers_congee", Food_pioneers_congee::new);
 
-    public static final RegistryObject<Item> STEELY_TREE_SEED_FOSSIL = ITEMS.register("steely_tree_seed_fossil", Item_steely_tree_seed_fossil::new);
+    public static final RegistryObject<ItemNameBlockItem> STEELY_TREE_SEED_FOSSIL = ITEMS.register("steely_tree_seed_fossil", Item_steely_tree_seed_fossil::new);
 
 
 }
