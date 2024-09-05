@@ -30,6 +30,7 @@ public class Rebuilding_World_JAJPLanguageProvider extends LanguageProvider {
         addItem(Rebuilding_World_Items.SHELL_STONE_PICKAXE, "殻石のつるはし");
         addItem(Rebuilding_World_Items.SHELL_STONE_SHOVEL, "殻石のショヴェル");
 
+        addItem(Rebuilding_World_Items.PIONEERS_WHEAT_SEEDS, "先駆麦の種");
         addItem(Rebuilding_World_Items.PIONEERS_CONGEE, "先駆者の粥");
 
         addBlock(Rebuilding_World_Blocks.Blocks.FIRST_SOIL, "最初の土壌");

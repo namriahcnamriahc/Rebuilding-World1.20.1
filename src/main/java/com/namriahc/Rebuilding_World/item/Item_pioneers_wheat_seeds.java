@@ -1,10 +1,12 @@
 package com.namriahc.Rebuilding_World.item;
 
+import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Blocks;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraft.world.level.block.Block;
 
 public class Item_pioneers_wheat_seeds extends ItemNameBlockItem {
-    public Item_pioneers_wheat_seeds(Block p_41579_, Properties p_41580_) {
-        super(p_41579_, p_41580_);
+    public Item_pioneers_wheat_seeds() {
+        super(Rebuilding_World_Blocks.Blocks.PIONEERS_WHEAT_CROP.get(),
+                new Properties());
     }
 }
