@@ -33,6 +33,7 @@ public class Rebuilding_World_ItemModelProvider extends net.minecraftforge.clien
         handheldshovelitem(Rebuilding_World_Items.SHELL_STONE_SHOVEL);
 
         basicItem(Rebuilding_World_Items.PIONEERS_CONGEE.get());
+        basicItem(Rebuilding_World_Items.PIONEERS_WHEAT.get());
 
 
     }
