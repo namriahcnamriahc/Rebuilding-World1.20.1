@@ -1,11 +1,11 @@
 package com.namriahc.Rebuilding_World.datagen;
 
 import com.namriahc.Rebuilding_World.main.Rebuilding_World;
+import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Blocks;
+import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Items;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.FinishedRecipe;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
+import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -20,13 +20,20 @@ public class Rebuilding_World_RecipeProvider extends RecipeProvider implements I
     public Rebuilding_World_RecipeProvider(PackOutput p_248933_) {
         super(p_248933_);
     }
-    private static final List<ItemLike>
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, Rebuilding_World_Items.SHELL_STONE_SWORD.get())
+                .pattern("H")
+                .pattern("H")
+                .pattern("S")
+                .define('H', Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get()),
+                        has(Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get()))
+                .save(consumer);
 
     }
-
     protected static void oreSmelting(Consumer<FinishedRecipe> p_250654_, List<ItemLike> p_250172_, RecipeCategory p_250588_, ItemLike p_251868_, float p_250789_, int p_252144_, String p_251687_) {
         oreCooking(p_250654_, RecipeSerializer.SMELTING_RECIPE, p_250172_, p_250588_, p_251868_, p_250789_, p_252144_, p_251687_, "_from_smelting");
     }
@@ -41,10 +48,42 @@ public class Rebuilding_World_RecipeProvider extends RecipeProvider implements I
         while(var9.hasNext()) {
             ItemLike itemlike = (ItemLike)var9.next();
             SimpleCookingRecipeBuilder.generic(Ingredient.of(new ItemLike[]{itemlike}), p_251154_, p_250066_,
-                    p_251871_, p_251316_, p_251817_)
+                            p_251871_, p_251316_, p_251817_)
                     .group(p_251450_).unlockedBy(getHasName(itemlike), has(itemlike))
                     .save(p_250791_, Rebuilding_World.MOD_ID + ":" + getItemName(p_250066_) + p_249236_ + "_" + getItemName(itemlike));
         }
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
