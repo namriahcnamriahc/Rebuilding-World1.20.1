@@ -1,7 +1,9 @@
 package com.namriahc.Rebuilding_World.datagen.loot;
 
+import com.namriahc.Rebuilding_World.block.custom.CropBlock_pioneers_wheat;
 import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Blocks;
 import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Items;
+import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
@@ -11,6 +13,8 @@ import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -36,6 +40,15 @@ public class Rebuilding_World_BlockLootTables extends BlockLootSubProvider {
         this.add(Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK.get(),
                 block -> createOreDrops(Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK.get()
                         , Rebuilding_World_Items.STEELY_TREE_SEED_FOSSIL.get()));
+
+        LootItemCondition.Builder LootItemCondition_Builder = LootItemBlockStatePropertyCondition
+                .hasBlockStateProperties(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CropBlock_pioneers_wheat.AGE,7));
+        this.add(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get(),
+                createCropDrops(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get(),
+                        Rebuilding_World_Items.PIONEERS_WHEAT.get(),
+                Rebuilding_World_Items.PIONEERS_WHEAT_SEEDS.get(),
+                LootItemCondition_Builder));
 
     }
 

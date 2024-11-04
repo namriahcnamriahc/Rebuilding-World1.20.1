@@ -24,7 +24,7 @@ public class CropBlock_pioneers_wheat extends CropBlock {
     }
 
     @Override
-    protected IntegerProperty getAgeProperty() {
+    public IntegerProperty getAgeProperty() {
         return AGE;
     }
 
