@@ -31,7 +31,7 @@ public class Rebuilding_World_Blocks {
         public static final RegistryObject<StairBlock> SHELL_STONE_STAIRS = BLOCKS.register("shell_stone_stairs", Block_shell_stone_stairs::new);
         public static final RegistryObject<WallBlock> SHELL_STONE_WALL = BLOCKS.register("shell_stone_wall", Block_shell_stone_wall::new);
         public static final RegistryObject<SlabBlock> SHELL_STONE_SLAB = BLOCKS.register("shell_stone_slab", Block_shell_stone_slab::new);
-        public static final RegistryObject<Block> CROP_BROCK_PIONEERS_WHEAT = BLOCKS.register("pioneers_wheat", CropBlock_pioneers_wheat::new);
+        public static final RegistryObject<CropBlock> CROP_BROCK_PIONEERS_WHEAT = BLOCKS.register("pioneers_wheat", CropBlock_pioneers_wheat::new);
     }
     public static class BlockItems {
         public static final DeferredRegister<Item> BLOCK_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Rebuilding_World.MOD_ID);

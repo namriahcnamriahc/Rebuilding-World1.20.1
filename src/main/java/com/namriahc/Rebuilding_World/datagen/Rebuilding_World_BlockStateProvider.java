@@ -5,7 +5,7 @@ import com.namriahc.Rebuilding_World.main.Rebuilding_World;
 import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Blocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CropBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -38,7 +38,7 @@ public class Rebuilding_World_BlockStateProvider extends BlockStateProvider {
         wallBlock(Rebuilding_World_Blocks.Blocks.SHELL_STONE_WALL.get(),
                 blockTexture(Rebuilding_World_Blocks.Blocks.SHELL_ROCK.get()));
 
-        make_pioneers_wheat_crop((CropBlock) Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get(), "pioneers_wheat_stage", "pioneers_wheat_stage");
+        make_pioneers_wheat_crop(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get(), "pioneers_wheat_stage", "pioneers_wheat_stage");
 
     }
 
