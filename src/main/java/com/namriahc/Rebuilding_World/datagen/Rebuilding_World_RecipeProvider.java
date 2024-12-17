@@ -23,14 +23,24 @@ public class Rebuilding_World_RecipeProvider extends RecipeProvider implements I
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, Rebuilding_World_Items.SHELL_STONE_SWORD.get())
-                .pattern("H")
-                .pattern("H")
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, Rebuilding_World_Items.OVERCAST_STONE_SWORD.get())
+                .pattern("O")
+                .pattern("O")
                 .pattern("S")
-                .define('H', Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get())
+                .define('O', Rebuilding_World_Blocks.BlockItems.OVERCAST_ROCK.get())
                 .define('S', Items.STICK)
-                .unlockedBy(getHasName(Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get()),
-                        has(Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get()))
+                .unlockedBy(getHasName(Rebuilding_World_Blocks.BlockItems.OVERCAST_ROCK.get()),
+                        has(Rebuilding_World_Blocks.BlockItems.OVERCAST_ROCK.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, Rebuilding_World_Items.OVERCAST_STONE_PICKAXE.get())
+                .pattern("OOO")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('O', Rebuilding_World_Blocks.BlockItems.OVERCAST_ROCK.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Rebuilding_World_Blocks.BlockItems.OVERCAST_ROCK.get()),
+                        has(Rebuilding_World_Blocks.BlockItems.OVERCAST_ROCK.get()))
                 .save(consumer);
 
     }

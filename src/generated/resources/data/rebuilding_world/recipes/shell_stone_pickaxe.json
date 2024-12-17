@@ -10,12 +10,12 @@
     }
   },
   "pattern": [
-    "O",
-    "O",
-    "S"
+    "OOO",
+    " S ",
+    " S "
   ],
   "result": {
-    "item": "rebuilding_world:shell_stone_sword"
+    "item": "rebuilding_world:shell_stone_pickaxe"
   },
   "show_notification": true
 }

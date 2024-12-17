@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.StairBlock;
 
 public class Block_overcast_stone_stairs extends StairBlock {
     public Block_overcast_stone_stairs() {
-        super(Rebuilding_World_Blocks.Blocks.SHELL_ROCK.get().defaultBlockState(),
+        super(Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK.get().defaultBlockState(),
                 Properties.of()
                         .strength(15)
                         .explosionResistance(15)

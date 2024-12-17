@@ -28,10 +28,6 @@ public class Rebuilding_World_BlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
 
-        this.dropSelf(Rebuilding_World_Blocks.Blocks.SHELL_ROCK.get());
-        this.dropSelf(Rebuilding_World_Blocks.Blocks.SHELL_STONE_SLAB.get());
-        this.dropSelf(Rebuilding_World_Blocks.Blocks.SHELL_STONE_STAIRS.get());
-        this.dropSelf(Rebuilding_World_Blocks.Blocks.SHELL_STONE_WALL.get());
 
         this.dropSelf(Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK.get());
         this.dropSelf(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_STAIRS.get());

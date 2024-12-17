@@ -12,16 +12,18 @@ public class Rebuilding_World_Tags {
 
     public static class Blocks{
 
-        public static final TagKey<Block> NEEDS_SHELL_STONE_TOOL;
+
+        public static final TagKey<Block> NEEDS_OVERCAST_STONE_TOOL;
 
         static {
-            NEEDS_SHELL_STONE_TOOL = tag("needs_shell_stone_tool");
+            NEEDS_OVERCAST_STONE_TOOL = tag("needs_overcast_stone_tool");
         }
 
         private static TagKey<Block> tag (String name){
             return BlockTags.create(new ResourceLocation(Rebuilding_World.MOD_ID,name));
         }
     }
+
 
     public static class Items{
         public static final TagKey<Item> REBUILDING_WORLD_SERIES;

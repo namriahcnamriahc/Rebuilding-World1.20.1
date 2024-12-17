@@ -9,9 +9,9 @@ import com.namriahc.Rebuilding_World.item.armor.Armor_steely_bark_chestplate;
 import com.namriahc.Rebuilding_World.item.armor.Armor_steely_bark_helmet;
 import com.namriahc.Rebuilding_World.item.armor.Armor_steely_bark_leggings;
 import com.namriahc.Rebuilding_World.item.food.Food_pioneers_congee;
-import com.namriahc.Rebuilding_World.item.tool.Tool_shell_stone_pickaxe;
-import com.namriahc.Rebuilding_World.item.tool.Tool_shell_stone_shovel;
-import com.namriahc.Rebuilding_World.item.tool.Tool_shell_stone_sword;
+import com.namriahc.Rebuilding_World.item.tool.Tool_overcast_stone_pickaxe;
+import com.namriahc.Rebuilding_World.item.tool.Tool_overcast_stone_shovel;
+import com.namriahc.Rebuilding_World.item.tool.Tool_overcast_stone_sword;
 import com.namriahc.Rebuilding_World.main.Rebuilding_World;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
@@ -29,9 +29,9 @@ public class Rebuilding_World_Items {
     public static final RegistryObject<ArmorItem> STEELY_BARK_LEGGINGS = ITEMS.register("steely_bark_leggings", Armor_steely_bark_leggings::new);
     public static final RegistryObject<ArmorItem> STEELY_BARK_BOOTS = ITEMS.register("steely_bark_boots", Armor_steely_bark_boots::new);
 
-    public static final RegistryObject<SwordItem> SHELL_STONE_SWORD = ITEMS.register("shell_stone_sword", Tool_shell_stone_sword::new);
-    public static final RegistryObject<PickaxeItem> SHELL_STONE_PICKAXE = ITEMS.register("shell_stone_pickaxe", Tool_shell_stone_pickaxe::new);
-    public static final RegistryObject<ShovelItem> SHELL_STONE_SHOVEL = ITEMS.register("shell_stone_shovel", Tool_shell_stone_shovel::new);
+    public static final RegistryObject<SwordItem> OVERCAST_STONE_SWORD = ITEMS.register("shell_stone_sword", Tool_overcast_stone_sword::new);
+    public static final RegistryObject<PickaxeItem> OVERCAST_STONE_PICKAXE = ITEMS.register("shell_stone_pickaxe", Tool_overcast_stone_pickaxe::new);
+    public static final RegistryObject<ShovelItem> OVERCAST_STONE_SHOVEL = ITEMS.register("shell_stone_shovel", Tool_overcast_stone_shovel::new);
 
     public static final RegistryObject<BowlFoodItem> PIONEERS_CONGEE = ITEMS.register("pioneers_congee", Food_pioneers_congee::new);
     public static final RegistryObject<Item> PIONEERS_WHEAT = ITEMS.register("pioneers_wheat", Item_pioneers_wheat::new);

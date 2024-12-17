@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "rebuilding_world:shell_stone_sword"
+        "recipe": "rebuilding_world:shell_stone_pickaxe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "rebuilding_world:shell_stone_sword"
+      "rebuilding_world:shell_stone_pickaxe"
     ]
   },
   "sends_telemetry_event": false

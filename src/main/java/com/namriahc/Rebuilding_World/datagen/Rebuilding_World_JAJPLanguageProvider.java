@@ -26,23 +26,19 @@ public class Rebuilding_World_JAJPLanguageProvider extends LanguageProvider {
         addItem(Rebuilding_World_Items.STEELY_BARK_LEGGINGS, "鎧樹皮のレギンス");
         addItem(Rebuilding_World_Items.STEELY_BARK_BOOTS, "鎧樹皮のブーツ");
 
-        addItem(Rebuilding_World_Items.SHELL_STONE_SWORD, "殻石の剣");
-        addItem(Rebuilding_World_Items.SHELL_STONE_PICKAXE, "殻石のつるはし");
-        addItem(Rebuilding_World_Items.SHELL_STONE_SHOVEL, "殻石のショヴェル");
+        addItem(Rebuilding_World_Items.OVERCAST_STONE_SWORD, "殻石の剣");
+        addItem(Rebuilding_World_Items.OVERCAST_STONE_PICKAXE, "殻石のつるはし");
+        addItem(Rebuilding_World_Items.OVERCAST_STONE_SHOVEL, "殻石のショヴェル");
 
         addItem(Rebuilding_World_Items.PIONEERS_CONGEE, "先駆者の粥");
         addItem(Rebuilding_World_Items.PIONEERS_WHEAT, "先駆麦");
         addItem(Rebuilding_World_Items.PIONEERS_WHEAT_SEEDS, "先駆麦の種");
 
         addBlock(Rebuilding_World_Blocks.Blocks.FIRST_SOIL, "最初の土壌");
-        addBlock(Rebuilding_World_Blocks.Blocks.SHELL_ROCK, "殻石");
         addBlock(Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK, "曇天石");
         addBlock(Rebuilding_World_Blocks.Blocks.SPONGE_SAND, "スポンジ沙");
         addBlock(Rebuilding_World_Blocks.Blocks.WET_SPONGE_SAND, "水を吸ったスポンジ沙");
 
-        addBlock(Rebuilding_World_Blocks.Blocks.SHELL_STONE_STAIRS, "殻石の階段");
-        addBlock(Rebuilding_World_Blocks.Blocks.SHELL_STONE_SLAB,"殻石のハーフブロック");
-        addBlock(Rebuilding_World_Blocks.Blocks.SHELL_STONE_WALL,"殻石の壁");
 
         addBlock(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL,"曇天石中の鎧樹の種の化石");
 

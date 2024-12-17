@@ -1,3 +1,5 @@
-// 1.20.1	2024-09-07T17:47:11.66724	Recipes
-948e018c3f5e64ec81aa32eae5a769f54247890a data/rebuilding_world/advancements/recipes/combat/shell_stone_sword.json
-0614969447927646f4699db046e9b35296b48395 data/rebuilding_world/recipes/shell_stone_sword.json
+// 1.20.1	2024-12-17T22:10:46.2625357	Recipes
+39e27776ee6c04e84e7ecca53d8360fa00d0ef60 data/rebuilding_world/advancements/recipes/combat/shell_stone_sword.json
+ff68e2fe6adc8a4244885ea18b32a89e75f88f8e data/rebuilding_world/advancements/recipes/tools/shell_stone_pickaxe.json
+02b5dd9e724029a4139f3fcfeadd12783f4ad713 data/rebuilding_world/recipes/shell_stone_pickaxe.json
+854e6a4b4d56626aa06b4bc0fe381877d4bfea3a data/rebuilding_world/recipes/shell_stone_sword.json

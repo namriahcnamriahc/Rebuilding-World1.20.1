@@ -28,9 +28,9 @@ public class Rebuilding_World_ItemModelProvider extends net.minecraftforge.clien
 
 
 
-        handheldsworditem(Rebuilding_World_Items.SHELL_STONE_SWORD);
-        handheldpickaxeitem(Rebuilding_World_Items.SHELL_STONE_PICKAXE);
-        handheldshovelitem(Rebuilding_World_Items.SHELL_STONE_SHOVEL);
+        handheldsworditem(Rebuilding_World_Items.OVERCAST_STONE_SWORD);
+        handheldpickaxeitem(Rebuilding_World_Items.OVERCAST_STONE_PICKAXE);
+        handheldshovelitem(Rebuilding_World_Items.OVERCAST_STONE_SHOVEL);
 
         basicItem(Rebuilding_World_Items.PIONEERS_CONGEE.get());
         basicItem(Rebuilding_World_Items.PIONEERS_WHEAT.get());
