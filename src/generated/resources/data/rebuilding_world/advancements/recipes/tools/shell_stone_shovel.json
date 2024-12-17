@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_overcast_rock": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rebuilding_world:overcast_rock"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rebuilding_world:shell_stone_shovel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_overcast_rock",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rebuilding_world:shell_stone_shovel"
+    ]
+  },
+  "sends_telemetry_event": false
+}

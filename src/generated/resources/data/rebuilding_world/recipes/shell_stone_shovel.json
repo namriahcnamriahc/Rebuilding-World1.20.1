@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "O": {
+      "item": "rebuilding_world:overcast_rock"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "O",
+    "S",
+    "S"
+  ],
+  "result": {
+    "item": "rebuilding_world:shell_stone_shovel"
+  },
+  "show_notification": true
+}

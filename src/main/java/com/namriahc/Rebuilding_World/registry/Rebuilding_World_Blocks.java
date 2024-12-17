@@ -69,7 +69,7 @@ public class Rebuilding_World_Blocks {
                         .stacksTo(64)
                 ));
         public static final RegistryObject<Item> OVERCAST_STONE_WALL = BLOCK_ITEMS.register("overcast_stone_wall"
-                , () -> new BlockItem(Blocks.OVERCAST_STONE_SLAB.get(), new Item.Properties()
+                , () -> new BlockItem(Blocks.OVERCAST_STONE_WALL.get(), new Item.Properties()
                 ));
 
         public static final RegistryObject<Item> OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL = BLOCK_ITEMS.register("overcast_stone_steely_tree_seed_fossil"

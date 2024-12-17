@@ -43,6 +43,15 @@ public class Rebuilding_World_RecipeProvider extends RecipeProvider implements I
                         has(Rebuilding_World_Blocks.BlockItems.OVERCAST_ROCK.get()))
                 .save(consumer);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, Rebuilding_World_Items.OVERCAST_STONE_SHOVEL.get())
+                .pattern("O")
+                .pattern("S")
+                .pattern("S")
+                .define('O', Rebuilding_World_Blocks.BlockItems.OVERCAST_ROCK.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Rebuilding_World_Blocks.BlockItems.OVERCAST_ROCK.get()),
+                        has(Rebuilding_World_Blocks.BlockItems.OVERCAST_ROCK.get()))
+                .save(consumer);
     }
     protected static void oreSmelting(Consumer<FinishedRecipe> p_250654_, List<ItemLike> p_250172_, RecipeCategory p_250588_, ItemLike p_251868_, float p_250789_, int p_252144_, String p_251687_) {
         oreCooking(p_250654_, RecipeSerializer.SMELTING_RECIPE, p_250172_, p_250588_, p_251868_, p_250789_, p_252144_, p_251687_, "_from_smelting");
