@@ -42,7 +42,7 @@ public class Rebuilding_World_BlockLootTables extends BlockLootSubProvider {
                 block -> createOreDrops(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL.get()
                         , Rebuilding_World_Items.STEELY_TREE_SEED_FOSSIL.get()));
 
-        LootItemCondition.Builder LootItemCondition_Builder = LootItemBlockStatePropertyCondition
+        LootItemCondition.Builder LootPioneersWheatCondition_Builder = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CropBlock_pioneers_wheat.AGE,7));
 
@@ -50,7 +50,7 @@ public class Rebuilding_World_BlockLootTables extends BlockLootSubProvider {
                 createCropDrops(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get(),
                         Rebuilding_World_Items.PIONEERS_WHEAT.get(),
                 Rebuilding_World_Items.PIONEERS_WHEAT_SEEDS.get(),
-                LootItemCondition_Builder));
+                LootPioneersWheatCondition_Builder));
 
     }
 
