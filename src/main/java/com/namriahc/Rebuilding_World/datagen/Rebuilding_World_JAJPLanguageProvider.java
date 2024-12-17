@@ -36,6 +36,7 @@ public class Rebuilding_World_JAJPLanguageProvider extends LanguageProvider {
 
         addBlock(Rebuilding_World_Blocks.Blocks.FIRST_SOIL, "最初の土壌");
         addBlock(Rebuilding_World_Blocks.Blocks.SHELL_ROCK, "殻石");
+        addBlock(Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK, "曇天石");
         addBlock(Rebuilding_World_Blocks.Blocks.SPONGE_SAND, "スポンジ沙");
         addBlock(Rebuilding_World_Blocks.Blocks.WET_SPONGE_SAND, "水を吸ったスポンジ沙");
         addBlock(Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK, "殻石に埋まっている鎧樹の種の化石");

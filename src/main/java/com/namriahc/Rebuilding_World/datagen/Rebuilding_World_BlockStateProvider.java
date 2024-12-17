@@ -23,20 +23,13 @@ public class Rebuilding_World_BlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.FIRST_SOIL);
-        simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.SHELL_ROCK);
+
+        simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK);
+
         simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.SPONGE_SAND);
         simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.WET_SPONGE_SAND);
         simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK);
 
-        slabBlock(Rebuilding_World_Blocks.Blocks.SHELL_STONE_SLAB.get(),
-                blockTexture(Rebuilding_World_Blocks.Blocks.SHELL_ROCK.get()),
-                blockTexture(Rebuilding_World_Blocks.Blocks.SHELL_ROCK.get()));
-
-        stairsBlock(Rebuilding_World_Blocks.Blocks.SHELL_STONE_STAIRS.get(),
-                blockTexture(Rebuilding_World_Blocks.Blocks.SHELL_ROCK.get()));
-
-        wallBlock(Rebuilding_World_Blocks.Blocks.SHELL_STONE_WALL.get(),
-                blockTexture(Rebuilding_World_Blocks.Blocks.SHELL_ROCK.get()));
 
         make_pioneers_wheat_crop(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get(), "pioneers_wheat_stage", "pioneers_wheat_stage");
 

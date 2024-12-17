@@ -33,6 +33,8 @@ public class Rebuilding_World_BlockLootTables extends BlockLootSubProvider {
         this.dropSelf(Rebuilding_World_Blocks.Blocks.SHELL_STONE_STAIRS.get());
         this.dropSelf(Rebuilding_World_Blocks.Blocks.SHELL_STONE_WALL.get());
 
+        this.dropSelf(Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK.get());
+
         this.dropSelf(Rebuilding_World_Blocks.Blocks.FIRST_SOIL.get());
         this.dropSelf(Rebuilding_World_Blocks.Blocks.SPONGE_SAND.get());
         this.dropSelf(Rebuilding_World_Blocks.Blocks.WET_SPONGE_SAND.get());

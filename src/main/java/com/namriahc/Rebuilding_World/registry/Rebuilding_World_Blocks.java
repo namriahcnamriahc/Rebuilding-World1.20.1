@@ -1,6 +1,7 @@
 package com.namriahc.Rebuilding_World.registry;
 
 import com.namriahc.Rebuilding_World.block.Block_first_soil;
+import com.namriahc.Rebuilding_World.block.Block_overcast_rock;
 import com.namriahc.Rebuilding_World.block.Block_shell_rock;
 
 import com.namriahc.Rebuilding_World.block.Block_steely_tree_seed_fossil_in_a_shell_rock;
@@ -32,6 +33,8 @@ public class Rebuilding_World_Blocks {
         public static final RegistryObject<WallBlock> SHELL_STONE_WALL = BLOCKS.register("shell_stone_wall", Block_shell_stone_wall::new);
         public static final RegistryObject<SlabBlock> SHELL_STONE_SLAB = BLOCKS.register("shell_stone_slab", Block_shell_stone_slab::new);
         public static final RegistryObject<CropBlock> CROP_BROCK_PIONEERS_WHEAT = BLOCKS.register("pioneers_wheat", CropBlock_pioneers_wheat::new);
+
+        public static final RegistryObject<Block> OVERCAST_ROCK = BLOCKS.register("overcast_rock", Block_overcast_rock::new);
     }
     public static class BlockItems {
         public static final DeferredRegister<Item> BLOCK_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Rebuilding_World.MOD_ID);
@@ -68,6 +71,13 @@ public class Rebuilding_World_Blocks {
                 ));
         public static final RegistryObject<Item> SHELL_STONE_SLAB = BLOCK_ITEMS.register("shell_stone_slab"
                 , () -> new BlockItem(Blocks.SHELL_STONE_SLAB.get(), new Item.Properties()
+                ));
+
+
+
+        public static final RegistryObject<Item> OVERCAST = BLOCK_ITEMS.register("overcast_rock"
+                , () -> new BlockItem(Blocks.OVERCAST_ROCK.get(), new Item.Properties()
+                        .stacksTo(64)
                 ));
     }
 }

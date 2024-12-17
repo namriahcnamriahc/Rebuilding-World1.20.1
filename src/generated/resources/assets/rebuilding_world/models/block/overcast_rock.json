@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "rebuilding_world:block/shell_rock"
+    "all": "rebuilding_world:block/overcast_rock"
   }
 }
