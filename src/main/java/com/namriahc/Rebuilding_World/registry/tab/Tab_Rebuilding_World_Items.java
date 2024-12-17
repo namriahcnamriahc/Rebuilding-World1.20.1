@@ -18,7 +18,6 @@ public class Tab_Rebuilding_World_Items {
             Rebuilding_World_Blocks.BlockItems.FIRST_SOIL.get(),
             Rebuilding_World_Blocks.BlockItems.SPONGE_SAND.get(),
             Rebuilding_World_Blocks.BlockItems.WET_SPONGE_SAND.get(),
-            Rebuilding_World_Blocks.BlockItems.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK.get(),
             Rebuilding_World_Items.PIONEERS_CONGEE.get(),
             Rebuilding_World_Items.PIONEERS_WHEAT.get(),
             Rebuilding_World_Items.PIONEERS_WHEAT_SEEDS.get(),

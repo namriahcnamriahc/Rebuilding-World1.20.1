@@ -5,8 +5,7 @@ import com.namriahc.Rebuilding_World.main.Rebuilding_World;
 import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Blocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.CropBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
@@ -28,8 +27,17 @@ public class Rebuilding_World_BlockStateProvider extends BlockStateProvider {
 
         simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.SPONGE_SAND);
         simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.WET_SPONGE_SAND);
-        simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK);
+        simpleBlockWithItem(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL);
 
+        stairsBlock((StairBlock) Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_STAIRS.get(),
+                blockTexture(Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK.get()));
+
+        wallBlock((WallBlock) Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_WALL.get(),
+                blockTexture(Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK.get()));
+
+        slabBlock((SlabBlock) Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_SLAB.get(),
+                blockTexture(Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK.get()),
+                blockTexture(Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK.get()));
 
         make_pioneers_wheat_crop(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get(), "pioneers_wheat_stage", "pioneers_wheat_stage");
 

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rebuilding_world:block/overcast_stone_slab"
+    },
+    "type=double": {
+      "model": "rebuilding_world:block/overcast_rock"
+    },
+    "type=top": {
+      "model": "rebuilding_world:block/overcast_stone_slab_top"
+    }
+  }
+}

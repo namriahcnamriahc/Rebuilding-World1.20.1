@@ -39,11 +39,16 @@ public class Rebuilding_World_JAJPLanguageProvider extends LanguageProvider {
         addBlock(Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK, "曇天石");
         addBlock(Rebuilding_World_Blocks.Blocks.SPONGE_SAND, "スポンジ沙");
         addBlock(Rebuilding_World_Blocks.Blocks.WET_SPONGE_SAND, "水を吸ったスポンジ沙");
-        addBlock(Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK, "殻石に埋まっている鎧樹の種の化石");
 
         addBlock(Rebuilding_World_Blocks.Blocks.SHELL_STONE_STAIRS, "殻石の階段");
         addBlock(Rebuilding_World_Blocks.Blocks.SHELL_STONE_SLAB,"殻石のハーフブロック");
         addBlock(Rebuilding_World_Blocks.Blocks.SHELL_STONE_WALL,"殻石の壁");
+
+        addBlock(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL,"曇天石中の鎧樹の種の化石");
+
+        addBlock(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_STAIRS, "曇天石の階段");
+        addBlock(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_WALL, "曇天石の壁");
+        addBlock(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_SLAB, "曇天石のハーフブロック");
 
     }
 }

@@ -34,18 +34,22 @@ public class Rebuilding_World_BlockLootTables extends BlockLootSubProvider {
         this.dropSelf(Rebuilding_World_Blocks.Blocks.SHELL_STONE_WALL.get());
 
         this.dropSelf(Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK.get());
+        this.dropSelf(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_STAIRS.get());
+        this.dropSelf(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_WALL.get());
+        this.dropSelf(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_SLAB.get());
 
         this.dropSelf(Rebuilding_World_Blocks.Blocks.FIRST_SOIL.get());
         this.dropSelf(Rebuilding_World_Blocks.Blocks.SPONGE_SAND.get());
         this.dropSelf(Rebuilding_World_Blocks.Blocks.WET_SPONGE_SAND.get());
 
-        this.add(Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK.get(),
-                block -> createOreDrops(Rebuilding_World_Blocks.Blocks.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK.get()
+        this.add(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL.get(),
+                block -> createOreDrops(Rebuilding_World_Blocks.Blocks.OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL.get()
                         , Rebuilding_World_Items.STEELY_TREE_SEED_FOSSIL.get()));
 
         LootItemCondition.Builder LootItemCondition_Builder = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CropBlock_pioneers_wheat.AGE,7));
+
         this.add(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get(),
                 createCropDrops(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get(),
                         Rebuilding_World_Items.PIONEERS_WHEAT.get(),

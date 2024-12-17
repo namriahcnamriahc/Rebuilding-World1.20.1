@@ -3,8 +3,8 @@ package com.namriahc.Rebuilding_World.block;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 
-public class Block_steely_tree_seed_fossil_in_a_shell_rock extends Block {
-    public Block_steely_tree_seed_fossil_in_a_shell_rock() {
+public class Block_overcast_stone_steely_tree_seed_fossil extends Block {
+    public Block_overcast_stone_steely_tree_seed_fossil() {
         super(Properties.of()
                 .requiresCorrectToolForDrops()
                 .strength(20)

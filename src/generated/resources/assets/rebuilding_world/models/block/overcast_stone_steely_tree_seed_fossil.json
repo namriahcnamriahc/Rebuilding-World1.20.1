@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "rebuilding_world:block/overcast_stone_steely_tree_seed_fossil"
+  }
+}

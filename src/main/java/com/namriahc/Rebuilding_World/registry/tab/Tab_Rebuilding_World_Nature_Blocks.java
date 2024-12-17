@@ -12,8 +12,10 @@ public class Tab_Rebuilding_World_Nature_Blocks {
             Rebuilding_World_Blocks.BlockItems.WET_SPONGE_SAND.get(),
             Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get(),
 
-            Rebuilding_World_Blocks.BlockItems.SHELL_ROCK.get(),
+            Rebuilding_World_Blocks.BlockItems.OVERCAST_ROCK.get(),
 
-            Rebuilding_World_Blocks.BlockItems.STEELY_TREE_SEED_FOSSIL_IN_A_SHELL_ROCK.get()
+            Rebuilding_World_Blocks.BlockItems.OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL.get()
+
+
     };
 }
