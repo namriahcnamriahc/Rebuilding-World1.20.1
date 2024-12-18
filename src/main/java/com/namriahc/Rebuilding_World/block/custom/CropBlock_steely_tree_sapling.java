@@ -18,7 +18,7 @@ public class CropBlock_steely_tree_sapling extends CropBlock {
 
 
     public CropBlock_steely_tree_sapling() {
-        super(Properties.of());
+        super(Properties.copy(Blocks.WHEAT));
     }
 
     @Override
