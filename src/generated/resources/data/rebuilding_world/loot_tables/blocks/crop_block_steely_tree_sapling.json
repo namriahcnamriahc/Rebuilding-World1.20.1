@@ -16,18 +16,18 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "block": "rebuilding_world:pioneers_wheat",
+                  "block": "rebuilding_world:crop_block_pioneers_wheat",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "7"
                   }
                 }
               ],
-              "name": "rebuilding_world:pioneers_wheat"
+              "name": "rebuilding_world:steely_tree_seed_fossil"
             },
             {
               "type": "minecraft:item",
-              "name": "rebuilding_world:pioneers_wheat_seeds"
+              "name": "rebuilding_world:steely_tree_seed_fossil"
             }
           ]
         }
@@ -38,7 +38,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "rebuilding_world:pioneers_wheat",
+          "block": "rebuilding_world:crop_block_pioneers_wheat",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "7"
@@ -59,11 +59,11 @@
               }
             }
           ],
-          "name": "rebuilding_world:pioneers_wheat_seeds"
+          "name": "rebuilding_world:steely_tree_seed_fossil"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "rebuilding_world:blocks/pioneers_wheat"
+  "random_sequence": "rebuilding_world:blocks/crop_block_steely_tree_sapling"
 }

@@ -52,6 +52,18 @@ public class Rebuilding_World_BlockLootTables extends BlockLootSubProvider {
                 Rebuilding_World_Items.PIONEERS_WHEAT_SEEDS.get(),
                 LootPioneersWheatCondition_Builder));
 
+
+
+        LootItemCondition.Builder LootSteelyTreeSaplingCondition_Builder = LootItemBlockStatePropertyCondition
+                .hasBlockStateProperties(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get())
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(CropBlock_pioneers_wheat.AGE,7));
+
+        this.add(Rebuilding_World_Blocks.Blocks.CROP_BLOCK_STEELY_TREE_SAPLING.get(),
+                createCropDrops(Rebuilding_World_Blocks.Blocks.CROP_BLOCK_STEELY_TREE_SAPLING.get(),
+                        Rebuilding_World_Items.STEELY_TREE_SEED_FOSSIL.get(),
+                        Rebuilding_World_Items.STEELY_TREE_SEED_FOSSIL.get(),
+                        LootSteelyTreeSaplingCondition_Builder));
+
     }
 
     @Override
