@@ -10,7 +10,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod("rebuilding_world")
 public class Rebuilding_World {
 
-    public static final String MOD_ID = "rebuilding_world";
+    public static final String MOD_ID = "rebuilding_world_1.20.1";
 
     public Rebuilding_World(){
 
