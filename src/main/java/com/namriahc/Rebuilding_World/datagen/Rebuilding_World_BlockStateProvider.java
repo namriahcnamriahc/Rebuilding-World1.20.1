@@ -42,6 +42,7 @@ public class Rebuilding_World_BlockStateProvider extends BlockStateProvider {
 
         make_pioneers_wheat_crop(Rebuilding_World_Blocks.Blocks.CROP_BROCK_PIONEERS_WHEAT.get(), "pioneers_wheat_stage", "pioneers_wheat_stage");
         make_steely_tree_sapling(Rebuilding_World_Blocks.Blocks.CROP_BLOCK_STEELY_TREE_SAPLING.get(), "steely_tree_sapling_stage","steely_tree_sapling_stage");
+        logBlock((RotatedPillarBlock) Rebuilding_World_Blocks.Blocks.STEELY_TREE_LOG.get());
 
     }
 
