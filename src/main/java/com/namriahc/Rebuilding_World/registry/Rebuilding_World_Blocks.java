@@ -5,10 +5,7 @@ import com.namriahc.Rebuilding_World.block.*;
 import com.namriahc.Rebuilding_World.block.Slabs.Block_overcast_stone_slab;
 import com.namriahc.Rebuilding_World.block.Stairs.Block_overcast_stone_stairs;
 import com.namriahc.Rebuilding_World.block.Walls.Block_overcast_stone_wall;
-import com.namriahc.Rebuilding_World.block.custom.Block_sponge_sand;
-import com.namriahc.Rebuilding_World.block.custom.Block_wet_sponge_sand;
-import com.namriahc.Rebuilding_World.block.custom.CropBlock_pioneers_wheat;
-import com.namriahc.Rebuilding_World.block.custom.CropBlock_steely_tree_sapling;
+import com.namriahc.Rebuilding_World.block.custom.*;
 import com.namriahc.Rebuilding_World.main.Rebuilding_World;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -34,6 +31,7 @@ public class Rebuilding_World_Blocks {
 
         public static final RegistryObject<Block> OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL = BLOCKS.register("overcast_stone_steely_tree_seed_fossil", Block_overcast_stone_steely_tree_seed_fossil::new);
         public static final RegistryObject<CropBlock> CROP_BLOCK_STEELY_TREE_SAPLING = BLOCKS.register("crop_block_steely_tree_sapling", CropBlock_steely_tree_sapling::new);
+        public static final RegistryObject<Block> STEELY_TREE_LOG = BLOCKS.register("steely_tree_log", LogBlock_steely_tree_log::new);
 
     }
     public static class BlockItems {
@@ -76,6 +74,11 @@ public class Rebuilding_World_Blocks {
 
         public static final RegistryObject<Item> OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL = BLOCK_ITEMS.register("overcast_stone_steely_tree_seed_fossil"
                 , () -> new BlockItem(Blocks.OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL.get(), new Item.Properties()
+                        .stacksTo(64)
+                ));
+
+        public static final RegistryObject<Item> STEELY_TREE_LOG = BLOCK_ITEMS.register("steely_tree_log"
+                , () -> new BlockItem(Blocks.STEELY_TREE_LOG.get(), new Item.Properties()
                         .stacksTo(64)
                 ));
     }
