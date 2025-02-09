@@ -20,7 +20,7 @@ public class StrippableBlocks extends Block {
     public @Nullable BlockState getToolModifiedState(BlockState state, UseOnContext context, ToolAction toolAction, boolean simulate) {
         if (context.getItemInHand().getItem() instanceof AxeItem) {
             if (state.is(Rebuilding_World_Blocks.Blocks.STEELY_TREE_LOG.get())) {
-                return Rebuilding_World_Blocks.Blocks.OVERCAST_ROCK.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
+                return Rebuilding_World_Blocks.Blocks.STRIPPED_STEELY_TREE_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
         }
         return super.getToolModifiedState(state, context, toolAction, simulate);
