@@ -1,6 +1,5 @@
 package com.namriahc.Rebuilding_World.block.custom;
 
-import com.mojang.math.Axis;
 import com.namriahc.Rebuilding_World.registry.Rebuilding_World_Blocks;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.context.UseOnContext;
@@ -18,8 +17,8 @@ public class StrippableBlocks extends Block {
 
     @Override
     public @Nullable BlockState getToolModifiedState(BlockState state, UseOnContext context, ToolAction toolAction, boolean simulate) {
-        if (context.getItemInHand().getItem() instanceof AxeItem) {
-            if (state.is(Rebuilding_World_Blocks.Blocks.STEELY_TREE_LOG.get())) {
+        if(context.getItemInHand().getItem() instanceof AxeItem) {
+            if(state.is(Rebuilding_World_Blocks.Blocks.STEELY_TREE_LOG.get())) {
                 return Rebuilding_World_Blocks.Blocks.STRIPPED_STEELY_TREE_LOG.get().defaultBlockState().setValue(AXIS, state.getValue(AXIS));
             }
         }
