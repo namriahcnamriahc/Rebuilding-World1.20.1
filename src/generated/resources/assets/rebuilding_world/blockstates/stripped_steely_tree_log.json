@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rebuilding_world:block/stripped_steely_tree_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rebuilding_world:block/stripped_steely_tree_log"
+    },
+    "axis=z": {
+      "model": "rebuilding_world:block/stripped_steely_tree_log_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,4 +1,4 @@
-// 1.20.1	2025-02-09T12:50:08.9916383	Loot Tables
+// 1.20.1	2025-02-09T14:06:14.0869426	Loot Tables
 9383226a492e19435418cddb94059a19cc6e8a1f data/rebuilding_world/loot_tables/blocks/crop_block_pioneers_wheat.json
 266d588d6fd25e9eaeafaa3c3284edb9dbbfb778 data/rebuilding_world/loot_tables/blocks/crop_block_steely_tree_sapling.json
 3cab09c1201ee980205b6d9912d165fbc3edae97 data/rebuilding_world/loot_tables/blocks/first_soil.json
@@ -9,4 +9,5 @@ c4a5dc6a1ae2befb11296ac6cab79ebb03972446 data/rebuilding_world/loot_tables/block
 52d3c05fda1141c1e4d9eac92475821e2388bfd3 data/rebuilding_world/loot_tables/blocks/overcast_stone_wall.json
 d7501f06ea25a9815bf9e13092294107ab0262cb data/rebuilding_world/loot_tables/blocks/sponge_sand.json
 04e313a26fc1db561ddcb2a7502a9e89bbeafea7 data/rebuilding_world/loot_tables/blocks/steely_tree_log.json
+0c257f62826a92cb1eb7eafc032e17f2c3656f3e data/rebuilding_world/loot_tables/blocks/stripped_steely_tree_log.json
 345390ffaa132bfea0573cff002e81d354c3fdab data/rebuilding_world/loot_tables/blocks/wet_sponge_sand.json
