@@ -32,6 +32,7 @@ public class Rebuilding_World_Blocks {
         public static final RegistryObject<Block> OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL = BLOCKS.register("overcast_stone_steely_tree_seed_fossil", Block_overcast_stone_steely_tree_seed_fossil::new);
         public static final RegistryObject<CropBlock> CROP_BLOCK_STEELY_TREE_SAPLING = BLOCKS.register("crop_block_steely_tree_sapling", CropBlock_steely_tree_sapling::new);
         public static final RegistryObject<Block> STEELY_TREE_LOG = BLOCKS.register("steely_tree_log", LogBlock_steely_tree_log::new);
+        public static final RegistryObject<Block> STRIPPED_STEELY_TREE_LOG = BLOCKS.register("stripped_steely_tree_log", StrippedLogBlock_stripped_steely_tree_log::new);
 
     }
     public static class BlockItems {
@@ -79,6 +80,11 @@ public class Rebuilding_World_Blocks {
 
         public static final RegistryObject<Item> STEELY_TREE_LOG = BLOCK_ITEMS.register("steely_tree_log"
                 , () -> new BlockItem(Blocks.STEELY_TREE_LOG.get(), new Item.Properties()
+                        .stacksTo(64)
+                ));
+
+        public static final RegistryObject<Item> STRIPPED_STEELY_TREE_LOG = BLOCK_ITEMS.register("stripped_steely_tree_log"
+                , () -> new BlockItem(Blocks.STRIPPED_STEELY_TREE_LOG.get(), new Item.Properties()
                         .stacksTo(64)
                 ));
     }

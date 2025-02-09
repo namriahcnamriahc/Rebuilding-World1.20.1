@@ -13,6 +13,7 @@ public class Tab_Rebuilding_World_Nature_Blocks {
             Rebuilding_World_Blocks.BlockItems.OVERCAST_ROCK.get(),
             Rebuilding_World_Blocks.BlockItems.OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL.get(),
             Rebuilding_World_Blocks.BlockItems.STEELY_TREE_LOG.get(),
+            Rebuilding_World_Blocks.BlockItems.STRIPPED_STEELY_TREE_LOG.get()
 
 
     };
