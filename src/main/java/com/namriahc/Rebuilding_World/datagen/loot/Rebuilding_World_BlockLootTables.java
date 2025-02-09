@@ -64,6 +64,8 @@ public class Rebuilding_World_BlockLootTables extends BlockLootSubProvider {
                         Rebuilding_World_Items.STEELY_TREE_SEED_FOSSIL.get(),
                         LootSteelyTreeSaplingCondition_Builder));
 
+        this.dropSelf(Rebuilding_World_Blocks.Blocks.STEELY_TREE_LOG.get());
+
     }
 
     @Override
