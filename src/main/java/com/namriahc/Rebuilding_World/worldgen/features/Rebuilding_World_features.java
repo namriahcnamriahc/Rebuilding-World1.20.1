@@ -9,7 +9,7 @@ import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 public class Rebuilding_World_features {
 
     public static final ResourceKey<ConfiguredFeature<?,?>> AAA =
-            createKey("aaa")
+            createKey("aaa");
 
     public static ResourceKey<ConfiguredFeature<?,?>>createKey(String name) {
 
