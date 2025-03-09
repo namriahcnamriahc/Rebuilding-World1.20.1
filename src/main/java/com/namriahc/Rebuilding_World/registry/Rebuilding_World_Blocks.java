@@ -31,6 +31,7 @@ public class Rebuilding_World_Blocks {
 
         public static final RegistryObject<Block> OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL = BLOCKS.register("overcast_stone_steely_tree_seed_fossil", Block_overcast_stone_steely_tree_seed_fossil::new);
         public static final RegistryObject<CropBlock> CROP_BLOCK_STEELY_TREE_SAPLING = BLOCKS.register("crop_block_steely_tree_sapling", CropBlock_steely_tree_sapling::new);
+        public static final RegistryObject<SaplingBlock> COMPLETE_STEELY_TREE_SAPLING = BLOCKS.register("complete_steely_tree_sapling", SaplingBlock_complete_steely_tree_sapling::new);
         public static final RegistryObject<Block> STEELY_TREE_LOG = BLOCKS.register("steely_tree_log", LogBlock_steely_tree_log::new);
         public static final RegistryObject<Block> STRIPPED_STEELY_TREE_LOG = BLOCKS.register("stripped_steely_tree_log", StrippedLogBlock_stripped_steely_tree_log::new);
 
@@ -75,6 +76,11 @@ public class Rebuilding_World_Blocks {
 
         public static final RegistryObject<Item> OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL = BLOCK_ITEMS.register("overcast_stone_steely_tree_seed_fossil"
                 , () -> new BlockItem(Blocks.OVERCAST_STONE_STEELY_TREE_SEED_FOSSIL.get(), new Item.Properties()
+                        .stacksTo(64)
+                ));
+
+        public static final RegistryObject<Item> COMPLETE_STEELY_TREE_SAPLING = BLOCK_ITEMS.register("complete_steely_tree_sapling"
+                , () -> new BlockItem(Blocks.COMPLETE_STEELY_TREE_SAPLING.get(), new Item.Properties()
                         .stacksTo(64)
                 ));
 
